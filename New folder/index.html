@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        .hulu {
+
+            color: chartreuse;
+            background-color: black;
+
+        }
+        .placeholder{
+            width: 300px;
+        }
+        .highlight{
+            color:red;
+        }
+        h3{
+            text-transform:capitalize;
+        }
+
+       *{
+        margin:0;
+        padding:0;
+        font-family: "Gilroy";
+        box-sizing: border-box;
+       } 
+
+       html,body{
+        width:100%;
+        height:100%;
+       }
+       #main{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: #222;
+       }
+       h1{
+        color:#555;
+        font-size:10rem;
+        font-weight: 300;
+        letter-spacing: -1rem;
+        user-select: none;
+       }
+    </style> -->
+    <!-- <style>
+        .hulu {
+
+            color: chartreuse;
+            background-color: black;
+
+        }
+        .placeholder{
+            width: 300px;
+        }
+        .highlight{
+            color:red;
+        }
+        h3{
+            text-transform:capitalize;
+        }
+
+       *{
+        margin:0;
+        padding:0;
+        font-family: "Gilroy";
+        box-sizing: border-box;
+       } 
+
+       html,body{
+        width:100%;
+        height:100%;
+       }
+       #main{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: #222;
+       }
+       input{
+           display:none;
+       }
+       #btn{
+        padding: 12px 22px;
+        background-color: rgb(41, 143, 114);
+        color: white;
+        font-weight: 600;
+        border-radius: 5px;
+       }
+       #btn:hover{
+        background-color: rgb(24, 82, 66);
+       }
+    </style> -->
+    <style>
+        /* * {
+            margin: 0;
+            padding: 0;
+            font-family: "Gilroy";
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            position: relative;
+            overflow: hidden;
+        } */
+
+        /*input{
+        display: block;
+       }
+       #main{
+        padding: 30px;
+        width: 100%;
+        height: 100%;
+        background-color: #222;
+       }
+       .card{
+          max-width: 300px;
+          color: #fff;
+          margin-top: 40px;
+          border-radius: 10px;
+          display:inline-block;
+          padding:20px;
+          border: 1px solid #555;
+       }*/
+        /*.profile{
+          width:50px;
+          height: 50px;
+          background-color: red;
+          border-radius: 50%;
+          margin-bottom:7px;
+       }*/
+        /* .profile{
+          width:50px;
+          height: 50px;
+          border-radius: 50%;
+          margin-bottom:7px;
+          overflow: hidden;
+       }
+       .profile img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       }
+       .card h5 {
+        margin-top: 3px;
+       }
+       .card p{
+        font-size: 12px;
+        margin-top: 10px;
+       }*/
+
+        /* #abcd {
+            position: absolute;
+            transition: all cubic-bezier(0.19, 1, 0.22, 1) .2s;
+            width: 400px;
+            height: 400px;
+            background-color: red;
+
+        } */
+    </style>
+    <style>
+        /* * {
+            margin: 0;
+            padding: 0;
+            font-family: "Gilroy";
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            position: relative;
+            overflow: hidden;
+            padding: 30px;
+        }
+
+        #main {
+            width: 100%;
+            height: 100%;
+            background-color: #222;
+        } */
+
+        /*       #nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 100px;
+        background-color: #444;
+
+       }
+
+       .a{
+        color: red;
+       }
+       
+
+
+       button{
+        padding: 12px 22px;
+        background-color: red;
+        border-radius: 5px;
+        border: none;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+       }
+
+       .lt{
+        text-decoration: line-through;
+       }*/
+
+        /*input{
+        display: block;
+       }
+       #main{
+        padding: 30px;
+        width: 100%;
+        height: 100%;
+        background-color: #222;
+       }
+       .card{
+          max-width: 300px;
+          color: #fff;
+          margin-top: 40px;
+          border-radius: 10px;
+          display:inline-block;
+          padding:20px;
+          border: 1px solid #555;
+       }*/
+        /*.profile{
+          width:50px;
+          height: 50px;
+          background-color: red;
+          border-radius: 50%;
+          margin-bottom:7px;
+       }*/
+        /* .profile{
+          width:50px;
+          height: 50px;
+          border-radius: 50%;
+          margin-bottom:7px;
+          overflow: hidden;
+       }
+       .profile img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       }
+       .card h5 {
+        margin-top: 3px;
+       }
+       .card p{
+        font-size: 12px;
+        margin-top: 10px;
+       }*/
+
+        /*#abcd{
+        position:absolute;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) .2s;
+        width:400px;
+        height: 400px;
+        background-color: red;
+       
+       }*/
+
+        /*.completed {
+       text-decoration: line-through;
+       color: gray;
+        }
+        
+        .c{
+            width: 80%;
+            height: 80%;
+            background-color: rgb(101,25,38);
+        }
+        .b{
+            width: 80%;
+            height: 80%;
+            background-color: green;
+        }
+        .a{
+            width: 80%;
+            height: 80%;
+            background-color: rgb(115, 6, 24);
+        }*/
+        /* #hide{
+            display:none;
+            color: red;
+            font-size: 12px;
+        } */
+        /* body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #222;
+            font-family: Arial, sans-serif;
+        }
+
+        .glass-card {
+            background: rgba(173, 28, 28, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .progress-container {
+            position: relative;
+            text-align: center;
+            background: rgba(229, 206, 206, 0.2);
+            border-radius: 15px;
+            padding: 2px;
+            width: 300px;
+            height: 100%;/* horizontal center 
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 25px;
+            border-radius: 12px;
+            background: #4caf50;
+        }
+
+        .percent {
+            display: block;
+            margin-top: 8px;
+            /* progress bar ke neeche 
+            font-weight: bold;
+            color: #fff;
+        } */
+        /* #alertBanner {
+            padding: 15px;
+            background-color: #f44336;
+            /* red 
+            color: white;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+
+             Smooth transition 
+            opacity: 1;
+            transition: opacity 0.5s ease;
+        }
+
+         Hide class ke liye 
+        #alertBanner.hide {
+            opacity: 0;
+            Fade out 
+            pointer-events: none;
+            Optional: click disable 
+        } */
+
+        /* ---------- Global Styles ---------- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background: #f3f4f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px;
+            min-height: 100vh;
+            gap: 40px;
+        }
+
+        /* ---------- Form Container ---------- */
+        .form-container {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #ffffff;
+            padding: 25px 30px;
+            border-radius: 16px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+            z-index: 999;
+            width: 350px;
+            animation: popup 0.35s ease forwards;
+        }
+
+        @keyframes popup {
+            from {
+                transform: translate(-50%, -55%) scale(0.9);
+                opacity: 0;
+            }
+
+            to {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+
+        .form-container h2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #111827;
+        }
+
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .form-container label {
+            font-size: 14px;
+            font-weight: 500;
+            color: #555;
+        }
+
+        .form-container input[type="text"] {
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .form-container input[type="text"]:focus {
+            border-color: #4f46e5;
+            box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+        }
+
+        .tag-checkbox {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .tag-checkbox span {
+            font-size: 14px;
+        }
+
+        .submit-btn {
+            margin-top: 10px;
+            padding: 10px;
+            border: none;
+            background: #4f46e5;
+            color: #fff;
+            font-weight: 600;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .submit-btn:hover {
+            background: #312e81;
+        }
+
+        .closeform {
+            margin-top: 10px;
+            width: 100%;
+            background: #ef4444;
+            color: #fff5f5;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            text-transform: capitalize;
+            font-weight: 500;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .closeform:hover {
+            background: #dc2626;
+        }
+
+        /* ---------- Note Container ---------- */
+        .note-container {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+
+        /* ---------- Left Icons ---------- */
+        .left-icons {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .left-icons button {
+            background: #4f46e5;
+            border: none;
+            color: #fff;
+            font-size: 18px;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .left-icons button:hover {
+            background: #4338ca;
+            transform: scale(1.1);
+        }
+
+        /* ---------- Stack (Cards Container) ---------- */
+        .stack {
+            position: relative;
+            width: 320px;
+            height: 230px;
+        }
+
+        /* ---------- Card Styles ---------- */
+        .card {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #fff;
+            border-radius: 16px;
+            padding: 20px;
+            width: 100%;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        /* Stacking effect using nth-child */
+        .card:nth-child(1) {
+            z-index: 3;
+            transform: translateY(0);
+        }
+
+        .card:nth-child(2) {
+            z-index: 2;
+            transform: translateY(15px) scale(0.98);
+            opacity: 0.9;
+        }
+
+        .card:nth-child(3) {
+            z-index: 1;
+            transform: translateY(30px) scale(0.96);
+            opacity: 0.7;
+        }
+        .card:nth-child(4) {
+            z-index: 1;
+            transform: translateY(20px) scale(0.94);
+            opacity: 0.7;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Avatar */
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            display: block;
+            border: 2px solid #4f46e5;
+        }
+
+        /* Name */
+        .card h2 {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #111;
+        }
+
+        /* Info Section */
+        .info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            margin-bottom: 6px;
+            color: #555;
+        }
+
+        /* Buttons */
+        .buttons {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .buttons button {
+            flex: 1;
+            padding: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 14px;
+            border: none;
+            transition: 0.3s;
+        }
+
+        button.call {
+            background: #111827;
+            color: white;
+        }
+
+        button.call:hover {
+            background: #15803d;
+        }
+
+        button.msg {
+            background: #e5e7eb;
+            color: #111;
+        }
+
+        button.msg:hover {
+            background: #0369a1;
+            color: #fff;
+        }
+
+        /* ---------- Right Color Dots ---------- */
+        .right-colors {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 40px;
+        }
+
+        .dot {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .dot:hover {
+            transform: scale(1.1);
+        }
+
+        .black {
+            background: #000;
+        }
+
+        .purple {
+            background: #9333ea;
+        }
+
+        .orange {
+            background: #f97316;
+        }
+
+        .teal {
+            background: #14b8a6;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <a href="">Download now</a> -->
+    <!-- <h1 id = "abcd">hey hey kaise ho!!!</h1> -->
+    <!-- <h1 class = "abcd">hey hey kaise ho!!!</h> -->
+    <!-- <img src = "" alt = "broken image"> -->
+    <!-- <a href = "https://www.google.com">Download now</a> -->
+    <!-- <h1>hey kaise ho</h1> -->
+    <!-- 
+    <div>
+
+        <h1>hey kaise ho</h1>
+        <h1>hey kaise ho 2</h1>
+        <h1>hey kaise ho 3 </h1>
+        <h1>hey kaise ho 4</h1>
+    </div> -->
+    <!-- <h1 class = "hulu">hey kaise ho</h1> -->
+    <!-- <h1>hey kaise ho</h1> -->
+    <!-- <p>Lorem ipsum <b>dolor</b> sit.</p> -->
+    <!-- <div>
+      Hello <span>World</span>
+    </div> -->
+    <!-- <h1 class="color">heyehye</h1>
+    <h1 class="color">heyehye</h1>
+    <h1 class="color">heyehye</h1> 
+    <h1 class="color">heyehye</h1>-->
+
+    <!-- <button class = "buy-now">buy now</button>
+    <button>Add to cart now</button>
+    <button class = "buy-now">buy now</button> -->
+
+    <!-- <h1 id="heading">some important information</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aspernatur aperiam repellat omnis magni culpa pariatur ut alias quia distinctio enim voluptas, praesentium voluptatem optio cum minima minus ducimus eveniet laudantium obcaecati!</p> -->
+    <!-- <ul>
+        <li>apple</li>
+        <li>apple 2</li>
+        <li>apple 3</li>
+        <li>apple 4</li>
+        <li>apple 5</li>
+    </ul> -->
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aspernatur aperiam repellat omnis magni culpa pariatur ut alias quia distinctio enim voluptas, praesentium voluptatem optio cum minima minus ducimus eveniet laudantium obcaecati!</p>  -->
+    <!-- <img src="https://images.unsplash.com/photo-1755090281929-2f027ee94c98?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""> -->
+    <!-- <a href="">download now</a> -->
+    <!-- <div title="hey">
+       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias excepturi quisquam ipsum unde eligendi quae voluptatum ea numquam, doloribus voluptatibus placeat laudantium delectus voluptates ad iure perspiciatis cupiditate iste, nesciunt similique voluptatem.</div> -->
+    <!-- <button disabled>Download Now</button> -->
+
+    <!-- <ul> 
+        <li>apple</li>
+        <li>apple 2</li>
+        <li>apple 3</li>
+        <li>apple 4</li>
+</ul> -->
+    <!-- <div>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio praesentium nam ut in harum itaque soluta, debitis minus perferendis facere obcaecati tenetur exercitationem commodi voluptas, consectetur aut, tempora nesciunt laboriosam. Neque, quia tempore. Soluta quaerat possimus est quam corrupti sunt, delectus ad voluptatibus modi enim maiores natus? Maxime accusamus optio debitis quisquam ducimus laudantium minima odit!</p>
+        </div> -->
+
+    <!-- <ul>
+            <li>grapes</li>
+            <li>apple</li>
+            <li>apple</li>
+            <li>apple</li>
+        </ul> -->
+    <!-- <ul>
+            <li>grapes</li>
+            <li>apple</li>
+            <li>apple</li>
+            <li>apple</li>
+        </ul> -->
+    <!-- <p>Lorem ipsum dolor sit amet. </p>
+        <h1>sdgdsdgsdg</h1>
+        <p>Lorem ipsum dolor sit amet. </p>
+        <h1>sdgdsdgsdg</h1>
+        <p>Lorem ipsum dolor sit amet. </p>
+        <h1>sdgdsdgsdg</h1>
+        <p>Lorem ipsum dolor sit amet. </p> -->
+
+    <!-- <h1>apple</h1> -->
+    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat mollitia minima sint enim deleniti accusamus odit adipisci quis quae, quas totam? Natus, et. Tenetur iure unde veniam fugit vitae laborum sapiente veritatis?</p> -->
+    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat mollitia minima sint enim deleniti accusamus odit adipisci quis quae, quas totam? Natus, et. Tenetur iure unde veniam fugit vitae laborum sapiente veritatis?</p> -->
+    <!-- <input type="text" placeholder = "name"> -->
+
+    <!-- <h3 id="device">Select your device</h3>
+         <Select>
+            <option selected disabled>Choose Your Device</option>
+            <option value="samsung">samsung</option>
+            <option value="mi">xoaimi</option>
+            <option value="apple">apple iPhone</option>
+            <option value="oppo">oppo</option>
+         </Select> -->
+
+    <!-- <div id = "main">
+            <input id="fileinp" type="file">
+            <div id="btn">
+                Upload File
+            </div>
+         </div> -->
+
+    <!-- <div id="main">
+            <h1>p</h1>
+         </div> -->
+    <!-- <div id="main">
+                 <form action="">
+                 <input type="text" placeholder="name">
+                 <input type="text" placeholder="occupation">
+                 <input type="text" placeholder="profile pic">
+                 <input type="text" placeholder="info">
+                 <input type="Submit">
+                </form>
+                </div> -->
+    <!-- <div id="main">
+                 <form action="">
+                 <input type="text" placeholder="name">
+                 <input type="text" placeholder="age">
+                 <input type="text" placeholder="email">
+                 <input type="text" placeholder="profile pic">
+                 <input type="Submit">
+                </form>
+                <div class="card">
+                     <div class="profile">
+                        <img src="https://images.unsplash.com/photo-1759505041005-6c75a1399f4c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4MHx8fGVufDB8fHx8fA%3D%3D", alt="">
+                     </div>
+                     <h3>harsh sharma</h3>
+                     <h5>creative coder</h5>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro placeat dolore perspiciatis numquam aliquam reiciendis accusantium ea explicabo quibusdam at? Quae recusandae expedita excepturi ab quod qui similique rem blanditiis, iusto cupiditate!</p>
+                </div>
+            </div> -->
+    <!-- <input type="text" id="myinput"/>
+            <div id = "abcd"></div>
+             -->
+    <!-- <form>
+                <input type="email">
+                <input type="password">
+                <input type="submit">
+            </form> -->
+
+    <!-- <div id="main">
+                <div id="nav">
+                    <a href="">home</a>
+                    <a href="">about</a>
+                    <button>click and follow</button>
+                </div>
+            </div> -->
+
+
+    <!-- <ul>
+                <li>apple</li>
+                <li>guava</li>
+                <li>grapes</li>
+                <li>banana</li>
+                <li>mango</li>
+            </ul> -->
+
+    <!-- <div class="a">
+                <div class="b">
+                    <div class="c">
+                        <button>Click me</button>
+                    </div>
+                </div>
+            </div> -->
+
+    <!-- <input type="text" placeholder="write anything">
+          <h1>Total Characters: <span>0</span></h1> -->
+    <!-- <ul id="todo-list">
+               <li>Buy Milk</li>
+               <li>Do Homework</li>
+               <li>Walk Dog</li>
+            </ul>
+
+            <input type="text" id="new-item" placeholder="Add new task"/>
+            <button id="add-btn">Add</button> -->
+
+    <!-- <form>
+            <input id="name" type="text" placeholder="name"> -->
+    <!-- <input pattern = "[a-z]{3,8}" required id="name" type="text" placeholder="name"> -->
+    <!-- <input required minlength="3" maxlength="10" id="name" type="text" placeholder="name"> -->
+    <!-- <input id="name" type="text" placeholder="name"> -->
+    <!-- <div id="hide">
+            <br>
+                <small>Your name should be greater than 2 character</small>
+            </div>
+                <br><br>
+                <input type="email" placeholder="email">
+                <br><br>
+                <input type="password" placeholder="password">
+            <br><br>
+            <select>
+                <option value="male">male</option>
+                <option value="male">female</option>
+                <option value="male">others</option>
+            </select> 
+            <br><br>
+             <textarea placeholder="Tell us about you....."></textarea>
+             <br><br>
+             <input type="submit">    
+
+            </form>  -->
+
+    <!-- <div class="glass-card">
+        <h2> Downloading...</h2>
+        <div class="progress-container">
+            <div class="progress-bar" id="progressbar"></div>
+        </div>
+        <div class="percent" id="percentText">0%</div>
+    </div> -->
+
+    <!-- <div id="alertBanner" class="alert">
+        This is an alert message!
+    </div> -->
+
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+<div class="form-container">
+    <h2>New Call</h2>
+    <form>
+        <label>Image URL</label>
+        <input required type="text" placeholder="https://example.com/photo.jpg" />
+        <label>Full Name</label>
+        <input required type="text" placeholder="Enter full Name" />
+        <label>Home Town</label>
+        <input required type="text" placeholder="Enter home town" />
+        <label>Purpose</label>
+        <input required type="text" placeholder="e.g., Quick appointment" />
+        <label>Category</label>
+
+        <label class="tag-checkbox">
+            <input required type="radio" name="category" value="emergency" />
+            <span>Emergency</span>
+        </label>
+        <label class="tag-checkbox">
+            <input required type="radio" name="category" value="important" />
+            <span>Important</span>
+        </label>
+        <label class="tag-checkbox">
+            <input required type="radio" name="category" value="urgent" />
+            <span>Urgent</span>
+        </label>
+        <label class="tag-checkbox">
+            <input required type="radio" name="category" value="No rush" />
+            <span>No rush</span>
+        </label>
+
+        <button type="submit" class="submit-btn">Create Note</button>
+    </form>
+    <button class="closeform">Close</button>
+</div>
+
+<div class="note-container">
+    <!-- Left Floating Buttons -->
+    <div class="left-icons">
+        <button id="add-note"><i class="ri-add-line"></i></button>
+        <button id="upBtn"><i class="ri-arrow-up-line"></i></button>
+        <button id="downBtn"><i class="ri-arrow-down-line"></i></button>
+    </div>
+
+    <!-- Cards Stack -->
+    <div class="stack">
+        <!-- <div class="card">
+            <img src="https://i.pinimg.com/736x/60/7e/85/607e859c7c2b14d01a0c73ce2f15e210.jpg" alt="profile"
+                class="avatar" />
+            <h2>Fatima Uma</h2>
+
+            <div class="info">
+                <span>Home Town</span>
+                <span>Singapore</span>
+            </div>
+
+            <div class="info">
+                <span>Bookings</span>
+                <span>3 times</span>
+            </div> -->
+
+            <!-- <div class="buttons">
+                <button class="call"><i class="ri-phone-line"></i> Call</button>
+                <button class="msg">Message</button>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- Right Color Options -->
+    <div class="right-colors">
+        <span class="dot black"></span>
+        <span class="dot purple"></span>
+        <span class="dot orange"></span>
+        <span class="dot teal"></span>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- lang , charset,name,content,class src tag name k alwa jo equal se pehle sab attribute hote  -->
+
+
+<!-- 
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+<div class="form-container">
+    <h2>New Call</h2>
+    <form>
+        <label>Image URL</label>
+        <input required type="text" placeholder="https://example.com/photo.jpg" />
+        <label>Full Name</label>
+        <input required type="text" placeholder="Enter full Name" />
+        <label>Home Town</label>
+        <input required type="text" placeholder="Enter home town" />
+        <label>Purpose</label>
+        <input required type="text" placeholder="e.g., Quick appointment" />
+        <label>Category</label>
+
+        <label class="tag-checkbox">
+            <input required type="radio" name="category" value="emergency" />
+            <span>Emergency</span>
+        </label>
+        <label class="tag-checkbox">
+            <input required type="radio" name="category" value="important" />
+            <span>Important</span>
+        </label>
+        <label class="tag-checkbox">
+            <input required type="radio" name="category" value="urgent" />
+            <span>Urgent</span>
+        </label>
+        <label class="tag-checkbox">
+            <input required type="radio" name="category" value="No rush" />
+            <span>No rush</span>
+        </label>
+
+        <button type="submit" class="submit-btn">Create Note</button>
+    </form>
+    <button class="closeform">Close</button>
+</div>
+
+<div class="note-container">
+    Left Floating Buttons 
+    <div class="left-icons">
+        <button id="add-note"><i class="ri-add-line"></i></button>
+        <button id="upBtn"><i class="ri-arrow-up-line"></i></button>
+        <button id="downBtn"><i class="ri-arrow-down-line"></i></button>
+    </div>
+
+    Cards Stack
+    <div class="stack">
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/60/7e/85/607e859c7c2b14d01a0c73ce2f15e210.jpg" alt="profile"
+                class="avatar" />
+            <h2>Fatima Uma</h2>
+
+            <div class="info">
+                <span>Home Town</span>
+                <span>Singapore</span>
+            </div>
+
+            <div class="info">
+                <span>Bookings</span>
+                <span>3 times</span>
+            </div>
+
+            <div class="buttons">
+                <button class="call"><i class="ri-phone-line"></i> Call</button>
+                <button class="msg">Message</button>
+            </div>
+        </div>
+    </div>
+
+    Right Color Options 
+    <div class="right-colors">
+        <span class="dot black"></span>
+        <span class="dot purple"></span>
+        <span class="dot orange"></span>
+        <span class="dot teal"></span>
+    </div>
+</div> -->
